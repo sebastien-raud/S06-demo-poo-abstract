@@ -5,6 +5,8 @@ abstract class Person
     protected $firstname;
     protected $lastname;
 
+    // Retourne les informations sur la personne
+    // sous forme de chaîne de caractères
     abstract public function getInformations();
 
     public function getFirstname()
